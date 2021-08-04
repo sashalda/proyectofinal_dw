@@ -20,4 +20,18 @@ $titulo: 'Yeseva One', cursive;
 }
 h3 {
     font-family: $titulo;
+    
+}
+.mapa {
+    margin:1rem 0 1rem 3rem;
+
+    div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 1rem;
+    }
+    p {
+        text-align: justify;
+        padding-right: 3rem;
+    }
 }

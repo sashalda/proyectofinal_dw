@@ -20,4 +20,21 @@
 h3 {
   font-family: "Yeseva One", cursive;
 }
+
+.mapa {
+  margin: 1rem 0 1rem 3rem;
+}
+
+.mapa div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+}
+
+.mapa p {
+  text-align: justify;
+  padding-right: 3rem;
+}
 /*# sourceMappingURL=styles.css.map */
