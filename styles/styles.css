@@ -2,4 +2,22 @@
   margin: 0;
   padding: 0;
 }
+
+.tituloIndex {
+  margin: 5rem 0;
+  text-align: center;
+}
+
+.tituloIndex h1 {
+  font-family: "Yeseva One", cursive;
+  font-size: 3rem;
+}
+
+.tituloIndex h2 {
+  font-family: "WindSong", cursive;
+}
+
+h3 {
+  font-family: "Yeseva One", cursive;
+}
 /*# sourceMappingURL=styles.css.map */

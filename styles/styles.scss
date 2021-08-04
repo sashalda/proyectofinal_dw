@@ -2,3 +2,22 @@
     margin: 0;
     padding: 0;
 }
+$subtitulo: 'WindSong', cursive;
+$titulo: 'Yeseva One', cursive;
+
+.tituloIndex {
+    margin: 5rem 0;
+    text-align: center;  
+
+    h1 {
+        font-family: $titulo;
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-family: $subtitulo;
+    }
+}
+h3 {
+    font-family: $titulo;
+}
