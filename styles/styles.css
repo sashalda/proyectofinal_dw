@@ -19,10 +19,11 @@
 
 h3 {
   font-family: "Yeseva One", cursive;
+  margin: 1rem;
 }
 
 .mapa {
-  margin: 4rem 0 1rem 4rem;
+  margin: 3rem 0 1rem 4rem;
 }
 
 .mapa div {
@@ -36,10 +37,15 @@ h3 {
 .mapa p {
   text-align: justify;
   padding-right: 3rem;
+  padding-top: 2rem;
+}
+
+.mapa h3 {
+  padding-top: 5rem;
 }
 
 .opiniones {
-  margin: 2rem;
+  margin: 4rem 2rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -66,5 +72,27 @@ h3 {
 .estrellita {
   margin: 0 38%;
   color: grey;
+  opacity: 80%;
+}
+
+.divisor {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.experienciaRubro {
+  margin: 2rem;
+}
+
+.experienciaRubro h3 {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+.experienciaRubro p {
+  padding: 1rem 2rem;
+  text-align: justify;
 }
 /*# sourceMappingURL=styles.css.map */
