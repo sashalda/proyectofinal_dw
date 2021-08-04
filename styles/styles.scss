@@ -4,6 +4,7 @@
 }
 $subtitulo: 'WindSong', cursive;
 $titulo: 'Yeseva One', cursive;
+$fondo: #E2EAFC;
 
 .tituloIndex {
     margin: 5rem 0;
@@ -23,7 +24,7 @@ h3 {
     
 }
 .mapa {
-    margin:1rem 0 1rem 3rem;
+    margin:4rem 0 1rem 4rem;
 
     div {
         display: grid;
@@ -34,4 +35,28 @@ h3 {
         text-align: justify;
         padding-right: 3rem;
     }
+}
+.opiniones {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    article {
+        padding: 10px;
+        background-color: $fondo;
+    }
+
+    h4 {
+        font-family: $titulo;
+        text-align: center;
+        padding-top: 1rem;
+    }
+    p {
+        padding: 1rem;
+        text-align: justify;
+    }
+}
+.estrellita {
+    margin: 0 39%;
+    color: grey;
 }

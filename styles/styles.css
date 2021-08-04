@@ -22,7 +22,7 @@ h3 {
 }
 
 .mapa {
-  margin: 1rem 0 1rem 3rem;
+  margin: 4rem 0 1rem 4rem;
 }
 
 .mapa div {
@@ -36,5 +36,34 @@ h3 {
 .mapa p {
   text-align: justify;
   padding-right: 3rem;
+}
+
+.opiniones {
+  margin: 2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.opiniones article {
+  padding: 10px;
+  background-color: #E2EAFC;
+}
+
+.opiniones h4 {
+  font-family: "Yeseva One", cursive;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.opiniones p {
+  padding: 1rem;
+  text-align: justify;
+}
+
+.estrellita {
+  margin: 0 39%;
+  color: grey;
 }
 /*# sourceMappingURL=styles.css.map */
