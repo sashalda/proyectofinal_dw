@@ -86,3 +86,29 @@ h3 {
         text-align: justify;
     }
 }
+footer {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(226,234,252,0.9251050762101716) 35%, rgba(171,196,255,1) 100%);
+    padding: 2rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    section {
+        padding-top: 2rem;
+    }
+
+    span {
+        font-size: 15px;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+        text-align:right;
+        font-size: 15px;
+    }
+}
+.horarios {
+    p {text-align: center;}
+}
