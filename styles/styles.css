@@ -133,6 +133,47 @@ footer p {
   background-image: url(https://res.cloudinary.com/iubh/image/upload/q_auto:eco/f_auto,w_iw,c_fill,g_face,ar_16:9/v1612256805/01%20-%20Studiengaenge/01%20-%20Bachelor/Wirtschaftspsychologie/2101-kv-wirtschaftspsychologie_sstcey.jpg);
   background-position: center;
   background-size: cover;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
+}
+
+.introduccion {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin: 3em;
+  grid-column-gap: 2em;
+}
+
+.introduccion img {
+  width: 500px;
+  height: 300px;
+  margin: 0;
+  padding-right: 0;
+  padding-left: 150px;
+}
+
+.introduccion p {
+  text-align: justify;
+  padding: 4rem;
+}
+
+.productorseguro {
+  margin: 3em;
+}
+
+.productorseguro h3 {
+  margin: 2em 0;
+}
+
+.productorseguro p {
+  margin: 0 2em 4em 2em;
+}
+
+.videoYt {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 150px;
 }
 /*# sourceMappingURL=styles.css.map */

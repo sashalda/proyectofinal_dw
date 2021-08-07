@@ -4,5 +4,38 @@
     background-image: url(https://res.cloudinary.com/iubh/image/upload/q_auto:eco/f_auto,w_iw,c_fill,g_face,ar_16:9/v1612256805/01%20-%20Studiengaenge/01%20-%20Bachelor/Wirtschaftspsychologie/2101-kv-wirtschaftspsychologie_sstcey.jpg);
     background-position:center;
     background-size: cover;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+.introduccion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3em;
+    grid-column-gap: 2em;
+
+    img {
+        width: 500px;
+        height: 300px;
+        margin: 0;
+        padding-right: 0;
+        padding-left: 150px;
+    }
+
+    p {
+        text-align: justify;
+        padding: 4rem;
+    }
+}
+.productorseguro {
+    margin: 3em;
+
+    h3 {
+        margin: 2em 0;
+    }
+    p {
+        margin: 0 2em 4em 2em;
+    }
+}
+.videoYt {
+    align-self: center;
+    margin-left: 150px;
 }
