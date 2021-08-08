@@ -1,0 +1,79 @@
+.banner__servicios {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://static.twentyoverten.com/5c3540f445d9625df1669e12/01aHPyevRib/iStock-528474010.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 4rem;
+}
+.introtiposeguros {
+    margin: 4rem 0 3rem 2rem;
+
+    h3 {
+        padding: 1rem;
+    }
+
+    p {
+        margin: 3rem 0 5rem 2rem;
+    }
+}
+.tiposseguros {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 2rem;
+    margin-top: 50px;
+
+    img {
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    p {
+        padding-top: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+}
+.tiposseguros2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 50px;
+
+    img {
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    p {
+        padding-top: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+.mascoberturas {
+    margin: 2rem;
+    margin-bottom: 100px;
+
+    h3 {
+        padding: 2rem 0;
+    }
+
+    p {
+        padding: 1rem;
+        text-align: justify;
+    }
+
+    span {
+        padding: 1rem;
+        text-align: justify;
+    }
+}
