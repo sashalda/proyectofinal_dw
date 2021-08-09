@@ -1,1 +1,45 @@
-/* No CSS *//*# sourceMappingURL=contacto.css.map */
+.banner__contacto {
+  width: 100%;
+  height: 300px;
+  background-image: url(https://cdn.bostondigital.com/sites/default/files/GettyImages-1088347818.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 4rem;
+}
+
+.contactanosintro {
+  margin: 5rem;
+}
+
+.contactanosintro div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.contactanosintro h3 {
+  margin: 3rem 0;
+  padding-top: 2rem;
+}
+
+.contactanosintro img {
+  height: 300px;
+  width: 400px;
+  margin-left: 30%;
+}
+
+.contactanosintro p {
+  padding-top: 3rem;
+  text-align: justify;
+}
+
+.formContacto {
+  margin: 3rem;
+  padding: 2rem;
+}
+
+.formContacto input {
+  margin: 1rem 0;
+}
+/*# sourceMappingURL=contacto.css.map */

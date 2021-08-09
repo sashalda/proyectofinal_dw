@@ -1,0 +1,79 @@
+.banner__contacto {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://cdn.bostondigital.com/sites/default/files/GettyImages-1088347818.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 4rem;
+}
+.contactanosintro {
+        margin: 5rem;
+    
+        div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+    
+        h3 {
+            margin: 3rem 0;
+            padding-top: 2rem;
+        }
+    
+        img {
+            height: 300px;
+            width: 400px;
+            margin-left: 30%;
+        }
+        p {
+            padding-top: 3rem;
+            text-align: justify;
+        }
+}
+.formContacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin: 3rem;
+    padding: 2rem;
+
+    input {
+        margin: 1rem 0;
+    }
+
+    legend {
+        font-family: $titulo;
+    }
+
+    form {
+        background-color: $fondo;
+    }
+
+    fieldset {
+       padding: 2rem 4rem;
+    }
+}
+.sumatealequipo {
+    margin: 5rem;
+    margin-bottom: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+    padding-top: 1rem;
+
+    h3 {
+        margin: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    span {
+        margin: 2rem 0;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+    img {
+        height: 300px;
+        width: 500px;
+    }
+    p {
+        text-align: justify;
+    }
+}

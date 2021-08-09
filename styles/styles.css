@@ -324,6 +324,97 @@ footer p {
   text-align: justify;
 }
 
+.banner__contacto {
+  width: 100%;
+  height: 300px;
+  background-image: url(https://cdn.bostondigital.com/sites/default/files/GettyImages-1088347818.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 4rem;
+}
+
+.contactanosintro {
+  margin: 5rem;
+}
+
+.contactanosintro div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.contactanosintro h3 {
+  margin: 3rem 0;
+  padding-top: 2rem;
+}
+
+.contactanosintro img {
+  height: 300px;
+  width: 400px;
+  margin-left: 30%;
+}
+
+.contactanosintro p {
+  padding-top: 3rem;
+  text-align: justify;
+}
+
+.formContacto {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin: 3rem;
+  padding: 2rem;
+}
+
+.formContacto input {
+  margin: 1rem 0;
+}
+
+.formContacto legend {
+  font-family: "Yeseva One", cursive;
+}
+
+.formContacto form {
+  background-color: #E2EAFC;
+}
+
+.formContacto fieldset {
+  padding: 2rem 4rem;
+}
+
+.sumatealequipo {
+  margin: 5rem;
+  margin-bottom: 150px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  padding-top: 1rem;
+}
+
+.sumatealequipo h3 {
+  margin: 2rem;
+  padding-bottom: 3rem;
+}
+
+.sumatealequipo span {
+  margin: 2rem 0;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.sumatealequipo img {
+  height: 300px;
+  width: 500px;
+}
+
+.sumatealequipo p {
+  text-align: justify;
+}
+
 .banner__servicios {
   width: 100%;
   height: 300px;
