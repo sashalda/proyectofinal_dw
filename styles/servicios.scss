@@ -61,7 +61,6 @@
 }
 .mascoberturas {
     margin: 2rem;
-    margin-bottom: 100px;
 
     h3 {
         padding: 2rem 0;
@@ -75,5 +74,18 @@
     span {
         padding: 1rem;
         text-align: justify;
+    }
+}
+.mascoberturas__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+    margin-bottom: 100px;
+
+    img {
+        height: 300px;
+        width: 400px;
+        display: block;
+        margin: auto;
     }
 }

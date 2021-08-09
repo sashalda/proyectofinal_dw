@@ -60,7 +60,68 @@
     </nav>
   </header>
     <main>
+      <img src="/media/dividor2.0.png" alt="dividor hojas" class="divisor"> 
+      <section class="formContacto">
+                <form action="#">
+                    <fieldset>
+                    <legend>Datos de Contacto</legend>
+                        <input type="text" name="Nombre" placeholder="Nombres">
+                        <input type="text" name="Apellido" placeholder="Apellidos">
+                        <br>
+                        <label for="si">¿Es de Buenos Aires?</label>
+                        <input type="checkbox" id=si name="si" value="1">
+                        <br>
+                        <label for="localidad">Seleccione su localidad</label>
+                        <select name="localidad" id="#">
+                            <option value="sur">Zona sur</option>
+                            <option value="norte">Zona norte</option>
+                            <option value="oeste">Zona oeste</option>
+                        </select>
+                        <br>
+                        <input type="tel" name="Telefono celular" placeholder="Celular">
+                        <input type="tel" name="Telefono Linea" placeholder="Telefono Linea">
+                        <input type="email" name="Email" placeholder="Email">
+                        <!--PONER FECHA NACIMIENTO CON MENU DESPLEGABLE-->
+                        <!--poner localidad-->
+                        <br>
+                        <label for="Descripcion">Comentarios</label>
+                        <br>
+                        <textarea name="Descripcion" id="" cols="43" rows="10" placeholder="Comentanos en que podemos ayudarte." maxlength="500"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Datos del Seguro</legend>
+                            <P>Seleccione el tipo de seguro que desea cotizar</P>     
+                            <input type="radio" checked id="auto" name="seguro" value="auto">
+                            <label for="auto">Auto</label>
+                            <input type="radio" id="moto" name="seguro" value="moto">
+                            <label for="moto">Moto</label>
+                            <input type="radio" id="hogar" name="seguro" value="hogar">
+                            <label for="hogar">Hogar</label>
+                            <input type="radio" id="vida" name="seguro" value="vida">
+                            <label for="vida">Vida</label>
+                            <input type="radio" id="eventuales" name="seguro" value="eventuales">
+                            <label for="eventuales">Eventuales</label>
+                            <input type="radio" id="viajes" name="seguro" value="viajes">
+                            <label for="viajes">Asistencia al viajero</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Bases y condiciones</legend>
+                            <p>¿Acepta recibir ofertas mediante los medios que ingresó anteriormente?</p>
 
+                            <input type="checkbox" checked id="acepta" name="acepta" value="1">
+                            <label for="acepta">Acepto</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Atencion</legend>
+                        <p>¿Desea enviar el formulario?</p>  
+                        <div class="botones ">  
+                            <input type="button"  value="volver" class="boton">
+                            <input type="reset" value="borrar" class="boton">
+                            <input type="submit" value="enviar" class="boton">
+                        </div>
+                    </fieldset>
+                </form>
+        </section>
     </main>
     <footer>
         <section>

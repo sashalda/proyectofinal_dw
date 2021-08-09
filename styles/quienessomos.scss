@@ -51,14 +51,18 @@
     h3 {
         margin: 3rem;
         padding-top: 2rem;
+        padding-bottom: 3rem;
     }
 
     span {
         margin: 3rem 0 3rem 3rem;
         padding-right: 2rem;
     }
-}
-.team {
-    height: 300px;
-    width: 500px;
+    img {
+        height: 300px;
+        width: 500px;
+    }
+    p {
+        text-align: justify;
+    }
 }

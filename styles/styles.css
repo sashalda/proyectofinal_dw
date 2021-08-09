@@ -193,6 +193,7 @@ footer p {
 .formacion h3 {
   margin: 3rem;
   padding-top: 2rem;
+  padding-bottom: 3rem;
 }
 
 .formacion span {
@@ -200,9 +201,127 @@ footer p {
   padding-right: 2rem;
 }
 
-.team {
+.formacion img {
   height: 300px;
   width: 500px;
+}
+
+.formacion p {
+  text-align: justify;
+}
+
+.banner__companias {
+  width: 100%;
+  height: 300px;
+  background-image: url(https://www.tfilo.com.tr/images/istock/9.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 4rem;
+}
+
+.companias1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  margin-bottom: 2rem;
+  margin-top: 50px;
+}
+
+.companias1 img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.companias1 p {
+  padding-top: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.companias2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  margin-bottom: 50px;
+}
+
+.companias2 img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.companias2 p {
+  padding-top: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.promo1 {
+  margin: 5rem;
+}
+
+.promo1 div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.promo1 h3 {
+  margin: 3rem 0;
+  padding-top: 2rem;
+}
+
+.promo1 img {
+  height: 300px;
+  width: 400px;
+  margin-left: 10%;
+}
+
+.promo1 p {
+  padding-top: 3rem;
+  text-align: justify;
+}
+
+.promo2 {
+  margin: 5rem;
+  padding-bottom: 100px;
+}
+
+.promo2 div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.promo2 h3 {
+  margin: 2rem 0;
+  padding-top: 2rem;
+}
+
+.promo2 img {
+  height: 300px;
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.promo2 p {
+  padding-top: 3rem;
+  text-align: justify;
 }
 
 .banner__servicios {
@@ -277,7 +396,6 @@ footer p {
 
 .mascoberturas {
   margin: 2rem;
-  margin-bottom: 100px;
 }
 
 .mascoberturas h3 {
@@ -292,5 +410,21 @@ footer p {
 .mascoberturas span {
   padding: 1rem;
   text-align: justify;
+}
+
+.mascoberturas__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2rem;
+  margin-bottom: 100px;
+}
+
+.mascoberturas__grid img {
+  height: 300px;
+  width: 400px;
+  display: block;
+  margin: auto;
 }
 /*# sourceMappingURL=styles.css.map */
