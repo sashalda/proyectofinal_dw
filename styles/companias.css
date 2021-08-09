@@ -111,4 +111,37 @@
   padding-top: 3rem;
   text-align: justify;
 }
+
+@media only screen and (max-width: 500px) {
+  .companias1 img {
+    width: 150px;
+  }
+  .companias2 img {
+    width: 150px;
+  }
+  .promo1 {
+    margin: 2rem;
+  }
+  .promo1 div {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .promo1 img {
+    margin-left: 0;
+    height: 250px;
+    width: 350px;
+  }
+  .promo2 {
+    margin: 2rem;
+    padding-bottom: 50px;
+  }
+  .promo2 div {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .promo2 img {
+    height: 250px;
+    width: 250px;
+  }
+}
 /*# sourceMappingURL=companias.css.map */

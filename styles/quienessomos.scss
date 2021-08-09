@@ -28,6 +28,7 @@
 .productorseguro {
     margin: 3em;
     padding: 2rem 0;
+
     h3 {
         margin: 2em;
     }
@@ -40,6 +41,8 @@
 .videoYt {
     align-self: center;
     margin-left: 150px;
+    width: 80%;
+    height: 600px; 
 }
 .formacion {
     margin: 5rem;
@@ -66,3 +69,44 @@
         text-align: justify;
     }
 }
+@media only screen and (max-width:500px) {
+.introduccion {
+    margin: 1rem;
+    grid-template-columns: 1fr;
+
+    p {
+        padding: 1rem;
+    }
+    img {
+        display: block;
+        margin: auto;
+        padding-left: 0;
+        height: 200px;
+        width: 350px;
+    }
+}
+.productorseguro {
+    margin: 1rem;
+    padding: 2rem 0;
+}
+.videoYt {
+    margin-left: 4rem;
+    height: 400px;
+}
+.formacion {
+    margin: 2rem;
+    grid-template-columns: 1fr;
+
+    h3 {
+        margin: 2rem;
+        padding-bottom: 1rem;
+    }
+    img {
+        height: 200px;
+        width: 400px;
+    }
+    span {
+        margin: 2rem 0
+    }
+}
+}    

@@ -101,4 +101,33 @@
   display: block;
   margin: auto;
 }
+
+@media only screen and (max-width: 500px) {
+  .introtiposeguros {
+    margin: 2rem;
+  }
+  .tiposseguros {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+  }
+  .tiposseguros img {
+    width: 150px;
+  }
+  .tiposseguros2 {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+  }
+  .tiposseguros2 img {
+    width: 150px;
+  }
+  .mascoberturas__grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .mascoberturas__grid img {
+    padding-top: 3rem;
+  }
+}
 /*# sourceMappingURL=servicios.css.map */

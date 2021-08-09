@@ -95,3 +95,39 @@
         text-align: justify;
     }
 }
+@media only screen and (max-width:500px) {
+    .companias1 {
+        img {
+            width: 150px;
+        }
+    }
+    .companias2 {
+        img {
+            width: 150px;
+        }
+    }
+    .promo1 {
+        margin: 2rem;
+
+        div {
+            grid-template-columns: 1fr;
+        }
+
+        img {
+            margin-left: 0;
+            height: 250px;
+            width: 350px;
+        }
+    }
+    .promo2 {
+        margin: 2rem;
+        padding-bottom: 50px;
+        div {
+            grid-template-columns: 1fr;
+        }
+        img {
+            height: 250px;
+            width: 250px;
+        }
+    }
+}

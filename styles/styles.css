@@ -127,6 +127,38 @@ footer p {
   text-align: center;
 }
 
+@media only screen and (max-width: 500px) {
+  .mapa {
+    margin: 2rem 0;
+  }
+  .mapa div {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .mapa p {
+    padding-right: 1rem;
+  }
+  .mapagoogle {
+    width: 300px;
+  }
+  .opiniones {
+    margin: 2rem 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  footer {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .datossasha {
+    display: none;
+  }
+}
+
 .banner__quienesSomos {
   width: 100%;
   height: 300px;
@@ -178,6 +210,8 @@ footer p {
       -ms-grid-row-align: center;
       align-self: center;
   margin-left: 150px;
+  width: 80%;
+  height: 600px;
 }
 
 .formacion {
@@ -208,6 +242,48 @@ footer p {
 
 .formacion p {
   text-align: justify;
+}
+
+@media only screen and (max-width: 500px) {
+  .introduccion {
+    margin: 1rem;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .introduccion p {
+    padding: 1rem;
+  }
+  .introduccion img {
+    display: block;
+    margin: auto;
+    padding-left: 0;
+    height: 200px;
+    width: 350px;
+  }
+  .productorseguro {
+    margin: 1rem;
+    padding: 2rem 0;
+  }
+  .videoYt {
+    margin-left: 4rem;
+    height: 400px;
+  }
+  .formacion {
+    margin: 2rem;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .formacion h3 {
+    margin: 2rem;
+    padding-bottom: 1rem;
+  }
+  .formacion img {
+    height: 200px;
+    width: 400px;
+  }
+  .formacion span {
+    margin: 2rem 0;
+  }
 }
 
 .banner__companias {
@@ -324,6 +400,39 @@ footer p {
   text-align: justify;
 }
 
+@media only screen and (max-width: 500px) {
+  .companias1 img {
+    width: 150px;
+  }
+  .companias2 img {
+    width: 150px;
+  }
+  .promo1 {
+    margin: 2rem;
+  }
+  .promo1 div {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .promo1 img {
+    margin-left: 0;
+    height: 250px;
+    width: 350px;
+  }
+  .promo2 {
+    margin: 2rem;
+    padding-bottom: 50px;
+  }
+  .promo2 div {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .promo2 img {
+    height: 250px;
+    width: 250px;
+  }
+}
+
 .banner__contacto {
   width: 100%;
   height: 300px;
@@ -413,6 +522,50 @@ footer p {
 
 .sumatealequipo p {
   text-align: justify;
+}
+
+@media only screen and (max-width: 500px) {
+  .contactanosintro {
+    margin: 2rem;
+  }
+  .contactanosintro div {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .contactanosintro h3 {
+    margin: 2rem;
+  }
+  .contactanosintro p {
+    padding-top: 1rem;
+  }
+  .contactanosintro img {
+    width: 300px;
+    height: 250px;
+    margin-left: 0;
+    padding-top: 2rem;
+  }
+  .formContacto {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .formContacto fieldset {
+    padding: 1rem 2rem;
+  }
+  .sumatealequipo {
+    margin: 3rem;
+    margin-bottom: 50px;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .sumatealequipo h3 {
+    padding-bottom: 1rem;
+  }
+  .sumatealequipo img {
+    height: 250px;
+    width: 350px;
+  }
 }
 
 .banner__servicios {
@@ -517,5 +670,34 @@ footer p {
   width: 400px;
   display: block;
   margin: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .introtiposeguros {
+    margin: 2rem;
+  }
+  .tiposseguros {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+  }
+  .tiposseguros img {
+    width: 150px;
+  }
+  .tiposseguros2 {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+  }
+  .tiposseguros2 img {
+    width: 150px;
+  }
+  .mascoberturas__grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .mascoberturas__grid img {
+    padding-top: 3rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

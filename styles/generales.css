@@ -126,4 +126,36 @@ footer p {
 .horarios p {
   text-align: center;
 }
+
+@media only screen and (max-width: 500px) {
+  .mapa {
+    margin: 2rem 0;
+  }
+  .mapa div {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .mapa p {
+    padding-right: 1rem;
+  }
+  .mapagoogle {
+    width: 300px;
+  }
+  .opiniones {
+    margin: 2rem 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  footer {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .datossasha {
+    display: none;
+  }
+}
 /*# sourceMappingURL=generales.css.map */

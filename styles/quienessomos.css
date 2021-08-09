@@ -49,6 +49,8 @@
       -ms-grid-row-align: center;
       align-self: center;
   margin-left: 150px;
+  width: 80%;
+  height: 600px;
 }
 
 .formacion {
@@ -79,5 +81,47 @@
 
 .formacion p {
   text-align: justify;
+}
+
+@media only screen and (max-width: 500px) {
+  .introduccion {
+    margin: 1rem;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .introduccion p {
+    padding: 1rem;
+  }
+  .introduccion img {
+    display: block;
+    margin: auto;
+    padding-left: 0;
+    height: 200px;
+    width: 350px;
+  }
+  .productorseguro {
+    margin: 1rem;
+    padding: 2rem 0;
+  }
+  .videoYt {
+    margin-left: 4rem;
+    height: 400px;
+  }
+  .formacion {
+    margin: 2rem;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .formacion h3 {
+    margin: 2rem;
+    padding-bottom: 1rem;
+  }
+  .formacion img {
+    height: 200px;
+    width: 400px;
+  }
+  .formacion span {
+    margin: 2rem 0;
+  }
 }
 /*# sourceMappingURL=quienessomos.css.map */
