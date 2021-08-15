@@ -2,11 +2,12 @@
     width: 100%;
     height: 300px;
     background-image: url(https://cdn.bostondigital.com/sites/default/files/GettyImages-1088347818.jpg);
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 0 44%;
     background-size: cover;
     margin-bottom: 4rem;
     position: relative;
-    
+
     h1 {
         position: absolute;
         bottom: 4rem;
