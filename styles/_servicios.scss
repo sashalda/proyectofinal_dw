@@ -5,6 +5,26 @@
     background-position: center;
     background-size: cover;
     margin-bottom: 4rem;
+    position: relative;
+    h1 {
+        position: absolute;
+        bottom: 4rem;
+        left: 2rem;
+        color: whitesmoke;
+        font-family: $titulo;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 3px black;
+    }
+    h2 {
+        position:absolute;
+        bottom:1rem;
+        left: 2rem;
+        color: whitesmoke;
+        font-family: $subtitulo;
+        padding: 2px;
+        text-shadow: 1px 1px 2px black;
+    }
 }
 .introtiposeguros {
     margin: 4rem 0 3rem 2rem;
