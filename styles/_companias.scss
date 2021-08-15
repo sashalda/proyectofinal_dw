@@ -28,26 +28,6 @@
     }
 
 }
-.companias2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin-bottom: 50px;
-
-    img {
-        width: 200px;
-        height: auto;
-        display: block;
-        margin: auto;
-    }
-
-    p {
-        padding-top: 1rem;
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: bold;
-    }
-}
 .promo1 {
     margin: 5rem;
 
@@ -97,11 +77,6 @@
 }
 @media only screen and (max-width:500px) {
     .companias1 {
-        img {
-            width: 150px;
-        }
-    }
-    .companias2 {
         img {
             width: 150px;
         }

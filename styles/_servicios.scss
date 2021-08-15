@@ -39,26 +39,6 @@
     }
 
 }
-.tiposseguros2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin-bottom: 50px;
-
-    img {
-        width: 200px;
-        height: auto;
-        display: block;
-        margin: auto;
-    }
-
-    p {
-        padding-top: 1rem;
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: bold;
-    }
-}
 .mascoberturas {
     margin: 2rem;
 
@@ -94,14 +74,6 @@
         margin: 2rem;
     }
     .tiposseguros {
-        grid-template-columns: 1fr 1fr;
-        margin-top: 20px;
-
-        img {
-            width: 150px;
-        }
-    }
-    .tiposseguros2 {
         grid-template-columns: 1fr 1fr;
         margin-top: 20px;
 

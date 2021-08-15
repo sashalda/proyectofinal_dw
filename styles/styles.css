@@ -320,30 +320,6 @@ footer p {
   font-weight: bold;
 }
 
-.companias2 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
-  margin-bottom: 50px;
-}
-
-.companias2 img {
-  width: 200px;
-  height: auto;
-  display: block;
-  margin: auto;
-}
-
-.companias2 p {
-  padding-top: 1rem;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
 .promo1 {
   margin: 5rem;
 }
@@ -402,9 +378,6 @@ footer p {
 
 @media only screen and (max-width: 500px) {
   .companias1 img {
-    width: 150px;
-  }
-  .companias2 img {
     width: 150px;
   }
   .promo1 {
@@ -614,30 +587,6 @@ footer p {
   font-weight: bold;
 }
 
-.tiposseguros2 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
-  margin-bottom: 50px;
-}
-
-.tiposseguros2 img {
-  width: 200px;
-  height: auto;
-  display: block;
-  margin: auto;
-}
-
-.tiposseguros2 p {
-  padding-top: 1rem;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
 .mascoberturas {
   margin: 2rem;
 }
@@ -682,14 +631,6 @@ footer p {
     margin-top: 20px;
   }
   .tiposseguros img {
-    width: 150px;
-  }
-  .tiposseguros2 {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    margin-top: 20px;
-  }
-  .tiposseguros2 img {
     width: 150px;
   }
   .mascoberturas__grid {
