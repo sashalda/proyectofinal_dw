@@ -166,6 +166,28 @@ footer p {
   background-position: center;
   background-size: cover;
   margin-bottom: 4rem;
+  position: relative;
+}
+
+.banner__quienesSomos h1 {
+  position: absolute;
+  bottom: 4rem;
+  left: 2rem;
+  color: whitesmoke;
+  font-family: "Yeseva One", cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 3px black;
+}
+
+.banner__quienesSomos h2 {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+  color: whitesmoke;
+  font-family: "WindSong", cursive;
+  padding: 2px;
+  text-shadow: 1px 1px 2px black;
 }
 
 .introduccion {
@@ -434,6 +456,28 @@ footer p {
   background-position: center;
   background-size: cover;
   margin-bottom: 4rem;
+  position: relative;
+}
+
+.banner__contacto h1 {
+  position: absolute;
+  bottom: 4rem;
+  left: 2rem;
+  color: whitesmoke;
+  font-family: "Yeseva One", cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 3px black;
+}
+
+.banner__contacto h2 {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+  color: whitesmoke;
+  font-family: "WindSong", cursive;
+  padding: 2px;
+  text-shadow: 1px 1px 2px black;
 }
 
 .contactanosintro {
