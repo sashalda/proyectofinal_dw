@@ -168,6 +168,8 @@ footer p {
   background-size: cover;
   margin-bottom: 4rem;
   position: relative;
+  -webkit-box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
+          box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
 }
 
 .banner__quienesSomos h1 {
@@ -178,7 +180,8 @@ footer p {
   font-family: "Yeseva One", cursive;
   text-transform: uppercase;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 3px black;
+  text-shadow: 2px 2px 3px #1d1d1d;
+  -webkit-text-stroke: 0.2px black;
 }
 
 .banner__quienesSomos h2 {
@@ -189,6 +192,7 @@ footer p {
   font-family: "WindSong", cursive;
   padding: 2px;
   text-shadow: 1px 1px 2px black;
+  -webkit-text-stroke: 0.1px black;
 }
 
 .introduccion {
@@ -317,6 +321,8 @@ footer p {
   background-size: cover;
   margin-bottom: 4rem;
   position: relative;
+  -webkit-box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
+          box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
 }
 
 .banner__companias h1 {
@@ -328,6 +334,7 @@ footer p {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-shadow: 2px 2px 3px black;
+  -webkit-text-stroke: 0.2px black;
 }
 
 .banner__companias h2 {
@@ -337,6 +344,8 @@ footer p {
   color: whitesmoke;
   font-family: "WindSong", cursive;
   padding: 2px;
+  text-shadow: 1px 1px 2px black;
+  -webkit-text-stroke: 0.1px black;
 }
 
 .companias1 {
@@ -459,6 +468,8 @@ footer p {
   background-size: cover;
   margin-bottom: 4rem;
   position: relative;
+  -webkit-box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
+          box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
 }
 
 .banner__contacto h1 {
@@ -470,6 +481,7 @@ footer p {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-shadow: 2px 2px 3px black;
+  -webkit-text-stroke: 0.2px black;
 }
 
 .banner__contacto h2 {
@@ -480,6 +492,7 @@ footer p {
   font-family: "WindSong", cursive;
   padding: 2px;
   text-shadow: 1px 1px 2px black;
+  -webkit-text-stroke: 0.1px black;
 }
 
 .contactanosintro {
@@ -617,6 +630,8 @@ footer p {
   background-size: cover;
   margin-bottom: 4rem;
   position: relative;
+  -webkit-box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
+          box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
 }
 
 .banner__servicios h1 {
@@ -628,6 +643,7 @@ footer p {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-shadow: 2px 2px 3px black;
+  -webkit-text-stroke: 0.2px black;
 }
 
 .banner__servicios h2 {
@@ -638,6 +654,7 @@ footer p {
   font-family: "WindSong", cursive;
   padding: 2px;
   text-shadow: 1px 1px 2px black;
+  -webkit-text-stroke: 0.1px black;
 }
 
 .introtiposeguros {
