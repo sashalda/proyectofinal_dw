@@ -48,9 +48,13 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1rem;
 
+    /*cada opinion*/
     article {
         padding: 1rem;
         background-color: $fondo;
+        position: relative;	
+        box-shadow: -1px -6px 9px 0px rgba(138, 122, 153, 0.71), 
+        inset 0px -5px 5px 0px rgba(71, 74, 96, 0.23)
     }
 
     h4 {
@@ -81,10 +85,11 @@ h3 {
         padding-bottom: 2rem;
         padding-left: 1rem;
     }
-
+/*line-height = interlineado*/
     p {
         padding: 1rem 2rem;
         text-align: justify;
+        line-height: 2;
     }
 }
 footer {
