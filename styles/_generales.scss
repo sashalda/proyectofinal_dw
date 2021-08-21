@@ -192,14 +192,23 @@ footer {
        display: none;
    }
 }
+h3 {
+    transition: transform .2s; 
+}
 h3:hover {
     font-size: 35px;
+}
+p {
+    transition: transform .3s; 
 }
 p:hover {
     font-size: 20px;
 }
 span:hover {
     font-size: 20px;
+}
+h4 {
+    transition: transform .2s; 
 }
 h4:hover {
     font-size: 30px;

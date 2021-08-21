@@ -353,8 +353,22 @@ footer p {
   }
 }
 
+h3 {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
 h3:hover {
   font-size: 35px;
+}
+
+p {
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
 }
 
 p:hover {
@@ -363,6 +377,13 @@ p:hover {
 
 span:hover {
   font-size: 20px;
+}
+
+h4 {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
 }
 
 h4:hover {
@@ -602,7 +623,7 @@ h4:hover {
   margin: 5rem;
 }
 
-.contactanosintro div {
+.contactanosintro article {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -610,7 +631,7 @@ h4:hover {
 }
 
 .contactanosintro h3 {
-  margin: 3rem 0;
+  margin: 3rem 0 2rem;
   padding-top: 2rem;
 }
 
@@ -621,8 +642,9 @@ h4:hover {
 }
 
 .contactanosintro p {
-  padding-top: 3rem;
+  padding-top: 2rem;
   text-align: justify;
+  padding-bottom: 10px;
 }
 
 .formContacto {
