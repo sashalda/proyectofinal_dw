@@ -196,12 +196,12 @@
   text-align: center;
 }
 
-.tituloIndex h1 {
+.tituloIndex h2 {
   font-family: "Yeseva One", cursive;
   font-size: 3rem;
 }
 
-.tituloIndex h2 {
+.tituloIndex h3 {
   font-family: "WindSong", cursive;
 }
 
@@ -329,38 +329,6 @@ footer p:hover {
   text-align: center;
 }
 
-@media only screen and (max-width: 500px) {
-  .mapa {
-    margin: 2rem 0;
-  }
-  .mapa div {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-  }
-  .mapa p {
-    padding-right: 1rem;
-  }
-  .mapagoogle {
-    width: 300px;
-  }
-  .opiniones {
-    margin: 2rem 0;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-  }
-  footer {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-  }
-  .datossasha {
-    display: none;
-  }
-}
-
 h3 {
   -webkit-transition: -webkit-transform .2s;
   transition: -webkit-transform .2s;
@@ -385,6 +353,53 @@ h4 {
 
 h4:hover {
   font-size: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+  h3:hover {
+    font-size: 100%;
+  }
+  h4:hover {
+    display: none;
+  }
+  span:hover {
+    font-size: 15px;
+  }
+  .mapa {
+    margin: 2rem 0;
+  }
+  .mapa div {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .mapa p {
+    padding-right: 1rem;
+  }
+  .tituloIndex h2 {
+    font-size: 2rem;
+  }
+  .mapagoogle {
+    width: 300px;
+  }
+  .opiniones {
+    margin: 2rem 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .opiniones article {
+    margin: 0.5rem;
+  }
+  footer {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .datossasha {
+    display: none;
+  }
 }
 
 .introduccion {

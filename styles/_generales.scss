@@ -59,12 +59,12 @@ $fondo: #E2EAFC;
     margin: 5rem 0;
     text-align: center;  
 
-    h1 {
+    h2 {
         font-family: $titulo;
         font-size: 3rem;
     }
 
-    h2 {
+    h3 {
         font-family: $subtitulo;
     }
 }
@@ -172,32 +172,6 @@ footer {
 .horarios {
     p {text-align: center;}
 }
-@media only screen and (max-width:500px) {
-   .mapa {
-        margin: 2rem 0;
-        div {
-            display: grid;
-            grid-template-columns: 1fr;
-        }
-        p {
-            padding-right: 1rem;
-        }
-   } 
-   .mapagoogle {
-       width: 300px;
-   }
-   .opiniones {
-       margin: 2rem 0;
-       display: grid;
-       grid-template-columns: 1fr;
-   }
-   footer {
-       grid-template-columns: 1fr 1fr;
-   }
-   .datossasha {
-       display: none;
-   }
-}
 h3 {
     transition: transform .2s; 
 }
@@ -212,4 +186,48 @@ h4 {
 }
 h4:hover {
     font-size: 30px;
+}
+@media only screen and (max-width:500px) {
+   h3:hover {
+       font-size:100%;
+   }
+   h4:hover {
+       display: none;
+   }
+   span:hover {
+       font-size: 15px;
+   }
+    .mapa {
+        margin: 2rem 0;
+        div {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        p {
+            padding-right: 1rem;
+        }
+   } 
+   .tituloIndex {
+       h2 {
+           font-size: 2rem;
+       }
+   }
+   .mapagoogle {
+       width: 300px;
+   }
+   .opiniones {
+       margin: 2rem 0;
+       display: grid;
+       grid-template-columns: 1fr;
+
+       article {
+           margin: 0.5rem;
+       }
+   }
+   footer {
+       grid-template-columns: 1fr 1fr;
+   }
+   .datossasha {
+       display: none;
+   }
 }
