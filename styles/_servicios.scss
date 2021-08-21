@@ -1,38 +1,3 @@
-.banner__servicios {
-    width: 100%;
-    height: 300px;
-    background-image: url(https://static.twentyoverten.com/5c3540f445d9625df1669e12/01aHPyevRib/iStock-528474010.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    margin-bottom: 4rem;
-    position: relative;
-    box-shadow:inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
-
-    h1 {
-        position: absolute;
-        bottom: 4rem;
-        left: 2rem;
-        color: whitesmoke;
-        font-family: $titulo;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-shadow: 2px 2px 3px black;
-        -webkit-text-stroke: 0.2px black;
-    }
-    
-    h2 {
-        position:absolute;
-        bottom:1rem;
-        left: 2rem;
-        color: whitesmoke;
-        font-family: $subtitulo;
-        padding: 2px;
-        text-shadow: 1px 1px 2px black;
-        -webkit-text-stroke: 0.1px black;
-    }
-}
 .introtiposeguros {
     margin: 4rem 0 3rem 2rem;
 

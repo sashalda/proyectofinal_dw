@@ -3,6 +3,194 @@
   padding: 0;
 }
 
+.banner__servicios {
+  width: 100%;
+  height: 300px;
+  background-position: bottom;
+  background-image: url(../media/banners/servicios.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 4rem;
+  position: relative;
+  -webkit-box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
+          box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
+}
+
+.banner__servicios h1 {
+  position: absolute;
+  bottom: 4rem;
+  left: 2rem;
+  color: whitesmoke;
+  font-family: "Yeseva One", cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 3px #1d1d1d;
+  -webkit-text-stroke: 0.2px black;
+}
+
+.banner__servicios h2 {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+  color: whitesmoke;
+  font-family: "WindSong", cursive;
+  padding: 2px;
+  text-shadow: 1px 1px 2px black;
+  -webkit-text-stroke: 0.1px black;
+}
+
+.banner__quienesSomos {
+  width: 100%;
+  height: 300px;
+  background-position: bottom;
+  background-image: url(../media/banners/quienesSomos.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 4rem;
+  position: relative;
+  -webkit-box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
+          box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
+  background-position: 0 27%;
+}
+
+.banner__quienesSomos h1 {
+  position: absolute;
+  bottom: 4rem;
+  left: 2rem;
+  color: whitesmoke;
+  font-family: "Yeseva One", cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 3px #1d1d1d;
+  -webkit-text-stroke: 0.2px black;
+}
+
+.banner__quienesSomos h2 {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+  color: whitesmoke;
+  font-family: "WindSong", cursive;
+  padding: 2px;
+  text-shadow: 1px 1px 2px black;
+  -webkit-text-stroke: 0.1px black;
+}
+
+.banner__contacto {
+  width: 100%;
+  height: 300px;
+  background-position: bottom;
+  background-image: url(../media/banners/contacto.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 4rem;
+  position: relative;
+  -webkit-box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
+          box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
+}
+
+.banner__contacto h1 {
+  position: absolute;
+  bottom: 4rem;
+  left: 2rem;
+  color: whitesmoke;
+  font-family: "Yeseva One", cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 3px #1d1d1d;
+  -webkit-text-stroke: 0.2px black;
+}
+
+.banner__contacto h2 {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+  color: whitesmoke;
+  font-family: "WindSong", cursive;
+  padding: 2px;
+  text-shadow: 1px 1px 2px black;
+  -webkit-text-stroke: 0.1px black;
+}
+
+.banner__companias {
+  width: 100%;
+  height: 300px;
+  background-position: bottom;
+  background-image: url(../media/banners/companias.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 4rem;
+  position: relative;
+  -webkit-box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
+          box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
+  background-position: center center;
+}
+
+.banner__companias h1 {
+  position: absolute;
+  bottom: 4rem;
+  left: 2rem;
+  color: whitesmoke;
+  font-family: "Yeseva One", cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 3px #1d1d1d;
+  -webkit-text-stroke: 0.2px black;
+}
+
+.banner__companias h2 {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+  color: whitesmoke;
+  font-family: "WindSong", cursive;
+  padding: 2px;
+  text-shadow: 1px 1px 2px black;
+  -webkit-text-stroke: 0.1px black;
+}
+
+.banner__home {
+  width: 100%;
+  height: 300px;
+  background-position: bottom;
+  background-image: url(../media/banners/home.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 4rem;
+  position: relative;
+  -webkit-box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
+          box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
+  background-position: 0 21%;
+}
+
+.banner__home h1 {
+  position: absolute;
+  bottom: 4rem;
+  left: 2rem;
+  color: whitesmoke;
+  font-family: "Yeseva One", cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 3px #1d1d1d;
+  -webkit-text-stroke: 0.2px black;
+}
+
+.banner__home h2 {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+  color: whitesmoke;
+  font-family: "WindSong", cursive;
+  padding: 2px;
+  text-shadow: 1px 1px 2px black;
+  -webkit-text-stroke: 0.1px black;
+}
+
 .tituloIndex {
   margin: 5rem 0;
   text-align: center;
@@ -165,43 +353,6 @@ footer p {
   }
 }
 
-.banner__quienesSomos {
-  width: 100%;
-  height: 300px;
-  background-image: url(https://res.cloudinary.com/iubh/image/upload/q_auto:eco/f_auto,w_iw,c_fill,g_face,ar_16:9/v1612256805/01%20-%20Studiengaenge/01%20-%20Bachelor/Wirtschaftspsychologie/2101-kv-wirtschaftspsychologie_sstcey.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: 0 27%;
-  background-size: cover;
-  margin-bottom: 4rem;
-  position: relative;
-  -webkit-box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
-          box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
-}
-
-.banner__quienesSomos h1 {
-  position: absolute;
-  bottom: 4rem;
-  left: 2rem;
-  color: whitesmoke;
-  font-family: "Yeseva One", cursive;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 3px #1d1d1d;
-  -webkit-text-stroke: 0.2px black;
-}
-
-.banner__quienesSomos h2 {
-  position: absolute;
-  bottom: 1rem;
-  left: 2rem;
-  color: whitesmoke;
-  font-family: "WindSong", cursive;
-  padding: 2px;
-  text-shadow: 1px 1px 2px black;
-  -webkit-text-stroke: 0.1px black;
-}
-
 .introduccion {
   display: -ms-grid;
   display: grid;
@@ -320,42 +471,6 @@ footer p {
   }
 }
 
-.banner__companias {
-  width: 100%;
-  height: 300px;
-  background-image: url(https://www.tfilo.com.tr/images/istock/9.jpg);
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  margin-bottom: 4rem;
-  position: relative;
-  -webkit-box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
-          box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
-}
-
-.banner__companias h1 {
-  position: absolute;
-  bottom: 4rem;
-  left: 2rem;
-  color: whitesmoke;
-  font-family: "Yeseva One", cursive;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 3px black;
-  -webkit-text-stroke: 0.2px black;
-}
-
-.banner__companias h2 {
-  position: absolute;
-  bottom: 1rem;
-  left: 2rem;
-  color: whitesmoke;
-  font-family: "WindSong", cursive;
-  padding: 2px;
-  text-shadow: 1px 1px 2px black;
-  -webkit-text-stroke: 0.1px black;
-}
-
 .companias1 {
   display: -ms-grid;
   display: grid;
@@ -465,43 +580,6 @@ footer p {
     height: 250px;
     width: 250px;
   }
-}
-
-.banner__contacto {
-  width: 100%;
-  height: 300px;
-  background-image: url(https://cdn.bostondigital.com/sites/default/files/GettyImages-1088347818.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
-  margin-bottom: 4rem;
-  position: relative;
-  -webkit-box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
-          box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
-}
-
-.banner__contacto h1 {
-  position: absolute;
-  bottom: 4rem;
-  left: 2rem;
-  color: whitesmoke;
-  font-family: "Yeseva One", cursive;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 3px black;
-  -webkit-text-stroke: 0.2px black;
-}
-
-.banner__contacto h2 {
-  position: absolute;
-  bottom: 1rem;
-  left: 2rem;
-  color: whitesmoke;
-  font-family: "WindSong", cursive;
-  padding: 2px;
-  text-shadow: 1px 1px 2px black;
-  -webkit-text-stroke: 0.1px black;
 }
 
 .contactanosintro {
@@ -628,43 +706,6 @@ footer p {
     height: 250px;
     width: 350px;
   }
-}
-
-.banner__servicios {
-  width: 100%;
-  height: 300px;
-  background-image: url(https://static.twentyoverten.com/5c3540f445d9625df1669e12/01aHPyevRib/iStock-528474010.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
-  margin-bottom: 4rem;
-  position: relative;
-  -webkit-box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
-          box-shadow: inset 0px -10px 5px 0px rgba(22, 22, 22, 0.34), inset 0px 5px 5px 0px rgba(22, 22, 22, 0.45);
-}
-
-.banner__servicios h1 {
-  position: absolute;
-  bottom: 4rem;
-  left: 2rem;
-  color: whitesmoke;
-  font-family: "Yeseva One", cursive;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 3px black;
-  -webkit-text-stroke: 0.2px black;
-}
-
-.banner__servicios h2 {
-  position: absolute;
-  bottom: 1rem;
-  left: 2rem;
-  color: whitesmoke;
-  font-family: "WindSong", cursive;
-  padding: 2px;
-  text-shadow: 1px 1px 2px black;
-  -webkit-text-stroke: 0.1px black;
 }
 
 .introtiposeguros {
