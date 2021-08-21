@@ -261,6 +261,10 @@ h3 {
   text-align: justify;
 }
 
+.opiniones p:hover {
+  font-size: 20px;
+}
+
 .estrellita {
   margin: 0 38%;
   color: grey;
@@ -315,6 +319,10 @@ footer p {
   padding: 0;
   text-align: right;
   font-size: 15px;
+}
+
+footer p:hover {
+  font-size: 20px;
 }
 
 .horarios p {
