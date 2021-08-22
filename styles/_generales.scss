@@ -303,8 +303,8 @@ footer {
     }
     .mapagoogle {
         padding-left: 1rem;
-       /* width: 700px;*/
-        height: 400px;
+        width: 100%;
+        height: 350px;
     }
     .opiniones {
         margin: 2rem 0;
@@ -316,7 +316,7 @@ footer {
         }
     }
     .estrellita {
-        margin: 0 44%;
+        margin: 0 43%;
     }
     footer {
         grid-template-columns: 1fr 1fr;
