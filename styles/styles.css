@@ -553,16 +553,23 @@ h4:hover {
     display: block;
     margin: auto;
     padding-left: 0;
-    height: 200px;
-    width: 350px;
+    height: 230px;
+    width: 300px;
   }
   .productorseguro {
     margin: 1rem;
     padding: 2rem 0;
   }
+  .productorseguro h3 {
+    margin: 2rem 0;
+  }
+  .productorseguro p {
+    margin: 0 1em 4em 1em;
+    padding-right: 0;
+  }
   .videoYt {
-    margin-left: 4rem;
-    height: 400px;
+    margin-left: 2rem;
+    height: 300px;
   }
   .formacion {
     margin: 2rem;
@@ -575,10 +582,11 @@ h4:hover {
   }
   .formacion img {
     height: 200px;
-    width: 400px;
+    width: 300px;
   }
   .formacion span {
     margin: 2rem 0;
+    padding-right: 0;
   }
 }
 
