@@ -1200,6 +1200,47 @@ footer p {
   }
 }
 
+/*TABLETS*/
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .introtiposeguros {
+    margin: 1rem;
+  }
+  .introtiposeguros p {
+    margin: 3rem 1rem;
+    text-align: justify;
+  }
+  .tiposseguros {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1rem;
+    margin-top: 20px;
+    margin: 2rem;
+  }
+  .tiposseguros img {
+    width: 180px;
+  }
+  .mascoberturas {
+    margin: 2rem;
+  }
+  .mascoberturas p {
+    text-align: left;
+  }
+  .mascoberturas span {
+    text-align: left;
+  }
+  .mascoberturas__grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    margin-bottom: 70px;
+  }
+  .mascoberturas__grid img {
+    padding-top: 3rem;
+    width: 350px;
+    height: 300px;
+  }
+  /*computadoras*/
+}
+
 @media only screen and (min-width: 901px) {
   .zoom {
     -webkit-transition: -webkit-transform .2s;
