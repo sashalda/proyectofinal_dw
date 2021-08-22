@@ -82,19 +82,22 @@
             padding-top: 1rem;
         }
         img {
-            width: 300px;
-            height: 250px;
+            width: 250px;
+            height: 200px;
             margin-left: 0;
             padding-top: 2rem;
         }
     }
     .formContacto {
         grid-template-columns: 1fr;
-        margin: 1rem 0;
+        margin: 0 0 3rem 0;
         padding: 0;
 
+        input {
+            margin: 0.5rem;
+        }
         fieldset {
-            padding: 1rem;
+            padding: 0;
         }
     }
     .sumatealequipo {
@@ -108,8 +111,8 @@
 
         img {
             padding-top: 2rem;
-            height: 250px;
-            width: 300px;
+            height: 200px;
+            width: 250px;
         }
     }
 }

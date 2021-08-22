@@ -61,6 +61,8 @@
         text-align: justify;
     }
 }
+/*MEDIA QUERIES*/
+/*CELULARES*/
 @media only screen and (max-width:600px) {
     .introduccion {
         margin: 1rem;
@@ -105,12 +107,16 @@
             text-align: center;
         }
         img {
-            height: 200px;
-            width: 300px;
+            height: 150px;
+            width: 250px;
         }
         span {
             margin: 2rem 0;
             padding-right: 0;
         }
     }
-}    
+}   
+/*TABLETS*/ 
+@media only screen and (min-width:601px) and (max-width:900px) {
+
+}

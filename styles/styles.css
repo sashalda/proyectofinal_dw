@@ -304,7 +304,6 @@ footer {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  /*ponerlo en media queries*/
 }
 
 footer section {
@@ -322,42 +321,12 @@ footer p {
   font-size: 15px;
 }
 
-footer p:hover {
-  font-size: 20px;
-}
-
 .horarios p {
   text-align: center;
 }
 
-/*ponerlos en media queries*/
-h3 {
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
-}
-
-h3:hover {
-  font-size: 35px;
-}
-
-span:hover {
-  font-size: 20px;
-}
-
-h4 {
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
-}
-
-h4:hover {
-  font-size: 30px;
-}
-
 /*MEDIA QUERIES*/
+/*celulares*/
 @media only screen and (max-width: 600px) {
   .logoNav {
     width: 200px;
@@ -417,6 +386,9 @@ h4:hover {
   .mapa h3 {
     padding-top: 2rem;
   }
+  .tituloIndex {
+    margin: 2rem 0;
+  }
   .tituloIndex h2 {
     font-size: 2rem;
   }
@@ -431,12 +403,15 @@ h4:hover {
   }
   .experienciaRubro h3 {
     padding-left: 0;
+    padding-top: 2rem;
+    padding-bottom: 0;
   }
   .experienciaRubro p {
     padding: 1rem;
   }
   .mapagoogle {
-    width: 300px;
+    width: 100%;
+    height: 70%;
   }
   .opiniones {
     margin: 2rem 0;
@@ -449,7 +424,7 @@ h4:hover {
     margin: 0.5rem;
   }
   .estrellita {
-    margin: 0 35%;
+    margin: 0 33%;
   }
   footer {
     -ms-grid-columns: 1fr 1fr;
@@ -461,6 +436,167 @@ h4:hover {
   }
   .datossasha {
     display: none;
+  }
+}
+
+/*tablets*/
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .logoNav {
+    width: 250px;
+  }
+  .banner__servicios {
+    height: 250px;
+    background-position: center center;
+    background-attachment: initial;
+  }
+  .banner__servicios h2 {
+    font-size: 20px;
+  }
+  .banner__quienesSomos {
+    height: 250px;
+    background-position: center center;
+    background-attachment: initial;
+  }
+  .banner__quienesSomos h2 {
+    font-size: 20px;
+  }
+  .banner__contacto {
+    height: 250px;
+    background-position: center center;
+    background-attachment: initial;
+  }
+  .banner__contacto h2 {
+    font-size: 20px;
+  }
+  .banner__companias {
+    height: 250px;
+    background-position: center center;
+    background-attachment: initial;
+  }
+  .banner__companias h2 {
+    font-size: 20px;
+  }
+  .banner__home {
+    height: 250px;
+    background-position: center center;
+    background-attachment: initial;
+  }
+  .banner__home h2 {
+    font-size: 20px;
+  }
+  .mapa {
+    margin: 2rem 0;
+  }
+  .mapa div {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .mapa p {
+    padding: 1rem;
+  }
+  .mapa h3 {
+    padding-top: 2rem;
+  }
+  .tituloIndex h2 {
+    font-size: 3rem;
+  }
+  .tituloIndex h3 {
+    font-size: 2rem;
+  }
+  h3 {
+    text-align: center;
+  }
+  .experienciaRubro {
+    margin: 1rem;
+  }
+  .experienciaRubro h3 {
+    padding-left: 0;
+  }
+  .experienciaRubro p {
+    padding: 1rem;
+  }
+  .mapagoogle {
+    padding-left: 1rem;
+    /* width: 700px;*/
+    height: 400px;
+  }
+  .opiniones {
+    margin: 2rem 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .opiniones article {
+    margin: 0.5rem;
+  }
+  .estrellita {
+    margin: 0 44%;
+  }
+  footer {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+  }
+  footer img {
+    display: none;
+  }
+  .datossasha {
+    display: none;
+  }
+}
+
+/*computadoras*/
+@media only screen and (min-width: 901px) {
+  h3 {
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+  }
+  h3:hover {
+    font-size: 35px;
+  }
+  span:hover {
+    font-size: 20px;
+  }
+  h4 {
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+  }
+  h4:hover {
+    font-size: 30px;
+  }
+  footer p:hover {
+    font-size: 20px;
+  }
+  h3 {
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+  }
+  h3:hover {
+    font-size: 35px;
+  }
+  span:hover {
+    font-size: 20px;
+  }
+  h4 {
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+  }
+  h4:hover {
+    font-size: 30px;
+  }
+  footer p:hover {
+    font-size: 20px;
   }
 }
 
@@ -540,6 +676,8 @@ h4:hover {
   text-align: justify;
 }
 
+/*MEDIA QUERIES*/
+/*CELULARES*/
 @media only screen and (max-width: 600px) {
   .introduccion {
     margin: 1rem;
@@ -582,8 +720,8 @@ h4:hover {
     text-align: center;
   }
   .formacion img {
-    height: 200px;
-    width: 300px;
+    height: 150px;
+    width: 250px;
   }
   .formacion span {
     margin: 2rem 0;
@@ -591,6 +729,7 @@ h4:hover {
   }
 }
 
+/*TABLETS*/
 .companias1 {
   display: -ms-grid;
   display: grid;
@@ -689,8 +828,8 @@ h4:hover {
   }
   .promo1 img {
     margin-left: 0;
-    height: 250px;
-    width: 300px;
+    height: 200px;
+    width: 250px;
   }
   .promo2 {
     margin: 2rem;
@@ -807,19 +946,22 @@ h4:hover {
     padding-top: 1rem;
   }
   .contactanosintro img {
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
     margin-left: 0;
     padding-top: 2rem;
   }
   .formContacto {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    margin: 1rem 0;
+    margin: 0 0 3rem 0;
     padding: 0;
   }
+  .formContacto input {
+    margin: 0.5rem;
+  }
   .formContacto fieldset {
-    padding: 1rem;
+    padding: 0;
   }
   .sumatealequipo {
     margin: 1rem;
@@ -832,8 +974,8 @@ h4:hover {
   }
   .sumatealequipo img {
     padding-top: 2rem;
-    height: 250px;
-    width: 300px;
+    height: 200px;
+    width: 250px;
   }
 }
 
