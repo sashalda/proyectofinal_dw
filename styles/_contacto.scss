@@ -120,11 +120,49 @@
         }
     }
 }
-@media only screen and (max-width:900px) {
+/* tablets */
+@media only screen and (min-width:601px) and (max-width:900px) {
 
-}
-@media only screen and (max-width:1200px){
-    
-}
-@media only screen and (min-width:901px){
+    .contactanosintro {
+        margin: 2rem;
+
+        article {
+            grid-template-columns: 1fr;
+        }
+        h3 {
+            margin: 2rem;
+        }
+        p {
+            padding-top: 1rem;
+        }
+        img {
+            width: 350px;
+            height: 300px;
+            margin-left: 0;
+            padding-top: 2rem;
+            display: block;
+            margin: auto;
+        }
+    }
+    .sumatealequipo {
+        margin: 2rem;
+        margin-bottom: 50px;
+        grid-template-columns: 1fr;
+
+        h3 {
+            padding-bottom: 1rem;
+        }
+
+        img {
+            padding-top: 2rem;
+            height: 250px;
+            width: 350px;
+            display: block;
+            margin: auto;
+        }
+
+        span {
+            padding-left: 1rem;
+        }
+    }
 }

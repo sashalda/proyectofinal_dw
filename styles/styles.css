@@ -1069,6 +1069,50 @@ footer p {
   }
 }
 
+/* tablets */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .contactanosintro {
+    margin: 2rem;
+  }
+  .contactanosintro article {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .contactanosintro h3 {
+    margin: 2rem;
+  }
+  .contactanosintro p {
+    padding-top: 1rem;
+  }
+  .contactanosintro img {
+    width: 350px;
+    height: 300px;
+    margin-left: 0;
+    padding-top: 2rem;
+    display: block;
+    margin: auto;
+  }
+  .sumatealequipo {
+    margin: 2rem;
+    margin-bottom: 50px;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .sumatealequipo h3 {
+    padding-bottom: 1rem;
+  }
+  .sumatealequipo img {
+    padding-top: 2rem;
+    height: 250px;
+    width: 350px;
+    display: block;
+    margin: auto;
+  }
+  .sumatealequipo span {
+    padding-left: 1rem;
+  }
+}
+
 .introtiposeguros {
   margin: 4rem 0 3rem 2rem;
 }
@@ -1106,48 +1150,6 @@ footer p {
   font-weight: bold;
 }
 
-/*ponerlo solo en media querie
-.textoHover {
-    position: relative;
-    width: 100%;
-}
-.textoHover:hover .overlay{
-    opacity:0.8;
-}
-.overlay {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 60%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #A98CDA;
-
-    li {
-        color: white;
-        font-size: 20px;
-        position: relative;
-        text-align: center;
-        padding-top: 15px;
-        list-style: none;
-        opacity: 1;
-    }
-    p {
-        color: white;
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-  } */
 .mascoberturas {
   margin: 2rem;
 }
@@ -1182,19 +1184,6 @@ footer p {
   margin: auto;
 }
 
-/*solo en media queries alta
-.zoom {
-    transition: transform .2s;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-  }
-  
-  .zoom:hover {
-    -ms-transform: scale(1.5); 
-    -webkit-transform: scale(1.5); 
-    transform: scale(1.5); 
-  }*/
 @media only screen and (max-width: 600px) {
   .introtiposeguros {
     margin: 1rem;

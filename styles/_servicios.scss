@@ -31,48 +31,6 @@
     }
 
 }
-/*ponerlo solo en media querie
-.textoHover {
-    position: relative;
-    width: 100%;
-}
-.textoHover:hover .overlay{
-    opacity:0.8;
-}
-.overlay {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 60%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #A98CDA;
-
-    li {
-        color: white;
-        font-size: 20px;
-        position: relative;
-        text-align: center;
-        padding-top: 15px;
-        list-style: none;
-        opacity: 1;
-    }
-    p {
-        color: white;
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-  } */
 .mascoberturas {
     margin: 2rem;
 
@@ -103,19 +61,6 @@
         margin: auto;
     }
 }
-/*solo en media queries alta
-.zoom {
-    transition: transform .2s;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-  }
-  
-  .zoom:hover {
-    -ms-transform: scale(1.5); 
-    -webkit-transform: scale(1.5); 
-    transform: scale(1.5); 
-  }*/
 @media only screen and (max-width:600px) {
     .introtiposeguros {
         margin: 1rem;
