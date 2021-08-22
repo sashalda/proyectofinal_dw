@@ -165,6 +165,7 @@ footer {
         text-align:right;
         font-size: 15px;
     }
+    /*ponerlo en media queries*/
     p:hover {
         font-size: 20px;
     }
@@ -172,6 +173,7 @@ footer {
 .horarios {
     p {text-align: center;}
 }
+/*ponerlos en media queries*/
 h3 {
     transition: transform .2s; 
 }
@@ -187,16 +189,23 @@ h4 {
 h4:hover {
     font-size: 30px;
 }
-@media only screen and (max-width:500px) {
-   h3:hover {
-       font-size:100%;
+/*MEDIA QUERIES*/
+@media only screen and (max-width:600px) {
+   .logoNav {
+       width: 200px;
    }
-   h4:hover {
-       display: none;
-   }
-   span:hover {
-       font-size: 15px;
-   }
+    @each $page in servicios, quienesSomos, contacto, companias, home {
+        .banner__#{$page} {
+            height: 200px;
+            background-position: center;
+            background-attachment: initial;
+
+            h2 {
+                font-size: 20px;
+            }
+        }
+    }
+
     .mapa {
         margin: 2rem 0;
         div {
@@ -204,12 +213,30 @@ h4:hover {
             grid-template-columns: 1fr;
         }
         p {
-            padding-right: 1rem;
+            padding: 1rem;
+        }
+        h3 {
+            padding-top: 2rem;
         }
    } 
    .tituloIndex {
        h2 {
            font-size: 2rem;
+       }
+       h3 {
+           font-size: 1.2rem;
+       }
+   }
+   h3 {
+       text-align: center;
+   }
+   .experienciaRubro {
+       margin: 1rem;
+       h3 {
+           padding-left: 0;
+       }
+       p {
+           padding: 1rem;
        }
    }
    .mapagoogle {
@@ -224,10 +251,18 @@ h4:hover {
            margin: 0.5rem;
        }
    }
+   .estrellita {
+       margin: 0 35%;
+   }
    footer {
        grid-template-columns: 1fr 1fr;
+       grid-column-gap: 1rem;
+       img {
+           display: none;
+       }
    }
    .datossasha {
        display: none;
    }
+
 }
