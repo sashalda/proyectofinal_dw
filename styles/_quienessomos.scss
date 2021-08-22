@@ -17,6 +17,7 @@
         padding: 4rem;
     }
 }
+
 .productorseguro {
     margin: 3em;
     padding: 2rem 0;
@@ -24,18 +25,21 @@
     h3 {
         margin: 2em;
     }
+
     p {
         margin: 0 2em 4em 4em;
         text-align: justify;
         padding-right: 2em;
     }
 }
+
 .videoYt {
     align-self: center;
     margin-left: 150px;
     width: 80%;
     height: 600px; 
 }
+
 .formacion {
     margin: 5rem;
     margin-bottom: 150px;
@@ -53,14 +57,17 @@
         margin: 3rem 0 3rem 3rem;
         padding-right: 2rem;
     }
+
     img {
         height: 300px;
         width: 500px;
     }
+
     p {
         text-align: justify;
     }
 }
+
 /*MEDIA QUERIES*/
 /*CELULARES*/
 @media only screen and (max-width:600px) {
@@ -71,6 +78,7 @@
         p {
             padding: 1rem;
         }
+
         img {
             display: block;
             margin: auto;
@@ -79,6 +87,7 @@
             width: 300px;
         }
     }
+
     .productorseguro {
         margin: 1rem;
         padding: 2rem 0;
@@ -92,11 +101,12 @@
             padding-right: 0;
         }
     }
+
     .videoYt {
         margin-left: 2rem;
-        height: 300px;
-        
+        height: 300px;    
     }
+
     .formacion {
         margin: 2rem;
         grid-template-columns: 1fr;
@@ -106,16 +116,18 @@
             padding-bottom: 1rem;
             text-align: center;
         }
+
         img {
             height: 150px;
             width: 250px;
         }
+
         span {
             margin: 2rem 0;
             padding-right: 0;
         }
     }
-}   
+}
 /*TABLETS*/ 
 @media only screen and (min-width:601px) and (max-width:900px) {
     .introduccion {
@@ -125,6 +137,7 @@
         p {
             padding: 1rem;
         }
+
         img {
             display: block;
             margin: auto;
@@ -133,6 +146,7 @@
             width: 300px;
         }
     }
+
     .productorseguro {
         margin: 2rem;
         padding: 2rem 0;
@@ -146,12 +160,13 @@
             padding-right: 0;
         }
     }
+
     .videoYt {
         margin-left: 0rem;
         height: 300px;
-        width: 100%;
-        
+        width: 100%;    
     }
+
     .formacion {
         margin: 2rem;
         grid-template-columns: 1fr;
@@ -161,12 +176,14 @@
             padding-bottom: 1rem;
             text-align: center;
         }
+
         img {
             height: 200px;
             width: 350px;
             display: block;
             margin: auto;
         }
+        
         span {
             margin: 2rem 0;
             padding-left: 10rem;

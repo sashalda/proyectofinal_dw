@@ -1,32 +1,35 @@
 .contactanosintro {
-        margin: 5rem;
-    
-        article {
+    margin: 5rem;
+
+    article {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        }
-    
-        h3 {
-            margin: 3rem 0 2rem;
-            padding-top: 2rem;
-        }
-    
-        img {
-            height: 300px;
-            width: 400px;
-            margin-left: 30%;
-        }
-        p {
-            padding-top: 2rem;
-            text-align: justify;
-            padding-bottom: 10px;
-        }
+    }
+
+    h3 {
+        margin: 3rem 0 2rem;
+        padding-top: 2rem;
+    }
+
+    img {
+        height: 300px;
+        width: 400px;
+        margin-left: 30%;
+    }
+
+    p {
+        padding-top: 2rem;
+        text-align: justify;
+        padding-bottom: 10px;
+    }
 }
+
 .formContacto {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 3rem;
     padding: 2rem;
+
     input {
         margin: 1rem 0;
     }
@@ -43,6 +46,7 @@
        padding: 2rem 4rem;
     }
 }
+
 .sumatealequipo {
     margin: 5rem;
     margin-bottom: 150px;
@@ -64,10 +68,12 @@
         height: 300px;
         width: 500px;
     }
+
     p {
         text-align: justify;
     }
 }
+
 @media only screen and (max-width:600px) {
     .contactanosintro {
         margin: 2rem;
@@ -75,12 +81,15 @@
         article {
             grid-template-columns: 1fr;
         }
+
         h3 {
             margin: 2rem;
         }
+
         p {
             padding-top: 1rem;
         }
+
         img {
             width: 250px;
             height: 200px;
@@ -90,6 +99,7 @@
             margin: auto;
         }
     }
+
     .formContacto {
         grid-template-columns: 1fr;
         margin: 0 0 3rem 0;
@@ -98,10 +108,12 @@
         input {
             margin: 0.5rem;
         }
+
         fieldset {
             padding: 0;
         }
     }
+
     .sumatealequipo {
         margin: 1rem;
         margin-bottom: 50px;
@@ -120,21 +132,24 @@
         }
     }
 }
+
 /* tablets */
 @media only screen and (min-width:601px) and (max-width:900px) {
-
     .contactanosintro {
         margin: 2rem;
 
         article {
             grid-template-columns: 1fr;
         }
+
         h3 {
             margin: 2rem;
         }
+
         p {
             padding-top: 1rem;
         }
+
         img {
             width: 350px;
             height: 300px;
@@ -144,6 +159,7 @@
             margin: auto;
         }
     }
+    
     .sumatealequipo {
         margin: 2rem;
         margin-bottom: 50px;
