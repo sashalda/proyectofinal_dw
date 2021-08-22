@@ -1004,6 +1004,8 @@ footer p {
     height: 200px;
     margin-left: 0;
     padding-top: 2rem;
+    display: block;
+    margin: auto;
   }
   .formContacto {
     -ms-grid-columns: 1fr;
@@ -1030,6 +1032,8 @@ footer p {
     padding-top: 2rem;
     height: 200px;
     width: 250px;
+    display: block;
+    margin: auto;
   }
 }
 
