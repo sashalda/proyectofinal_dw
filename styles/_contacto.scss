@@ -68,11 +68,11 @@
         text-align: justify;
     }
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
     .contactanosintro {
         margin: 2rem;
 
-        div {
+        article {
             grid-template-columns: 1fr;
         }
         h3 {
@@ -90,15 +90,15 @@
     }
     .formContacto {
         grid-template-columns: 1fr;
-        margin: 1rem;
-        padding: 1rem;
+        margin: 1rem 0;
+        padding: 0;
 
         fieldset {
-            padding: 1rem 2rem;
+            padding: 1rem;
         }
     }
     .sumatealequipo {
-        margin: 3rem;
+        margin: 1rem;
         margin-bottom: 50px;
         grid-template-columns: 1fr;
 
@@ -107,8 +107,17 @@
         }
 
         img {
+            padding-top: 2rem;
             height: 250px;
-            width: 350px;
+            width: 300px;
         }
     }
+}
+@media only screen and (max-width:900px) {
+
+}
+@media only screen and (max-width:1200px){
+    
+}
+@media only screen and (min-width:901px){
 }
