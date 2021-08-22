@@ -535,17 +535,6 @@ footer p {
   .estrellita {
     margin: 0 43%;
   }
-  footer {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    grid-column-gap: 1rem;
-  }
-  footer img {
-    display: none;
-  }
-  .datossasha {
-    display: none;
-  }
 }
 
 /*computadoras*/
@@ -865,6 +854,7 @@ footer p {
   text-align: justify;
 }
 
+/*celulares*/
 @media only screen and (max-width: 600px) {
   .companias1 {
     margin: 2rem 1rem;
@@ -896,6 +886,48 @@ footer p {
   .promo2 img {
     height: 250px;
     width: 250px;
+  }
+  .promo2 p {
+    padding-bottom: 2rem;
+  }
+}
+
+/* tablets */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .companias1 {
+    margin: 3rem 2rem;
+    grid-column-gap: 1rem;
+  }
+  .companias1 img {
+    width: 180px;
+  }
+  .promo1 {
+    margin: 3rem;
+  }
+  .promo1 div {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .promo1 img {
+    margin-left: 0;
+    height: 250px;
+    width: 300px;
+    margin: auto;
+    display: block;
+  }
+  .promo2 {
+    margin: 2rem;
+    padding-bottom: 30px;
+  }
+  .promo2 div {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .promo2 img {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    display: block;
   }
   .promo2 p {
     padding-bottom: 2rem;
