@@ -1,6 +1,6 @@
 # proyectofinal_dw
 
-ENGISH
+ENGLISH
 
 This is the final project of the web development course in Coder House online academy.
 My principal objetive was be able to apply all the new knowledge and skills to help a possible client. When I start study to become a developer, my dream was helping others with everyday stuff. So, for this instance, I thought about my mother, an insurance realtor.
